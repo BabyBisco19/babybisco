@@ -1,0 +1,104 @@
+#Baby C. Bisco
+#BS IT 2103
+class CAT(): 
+     def Name(self):
+         print("*******************FIRST CHOICE OF CAT*******************")
+         print("===========================================================")
+         print("Name: Ming Ming")
+         print("===========================================================")
+     def Breeds(self): 
+       print("Breeds:Abyssinian Cat") 
+     def Size(self):
+       print("Size: 8 pound ") 
+     def Gender(self):
+       print("Gender: Male") 
+     def color(self):
+       print("Color: Red")
+     def Age(self):
+       print("Age: 10 1/2 years ")  
+     def Shedding(self):
+       print("Shedding: Weekly grooming, frequent brushing and bathing.") 
+     def Temperament(self):
+       print("Temperament: Abyssinians are highly intelligent and intensely inquisitive. They love to investigate and will leave no nook or cranny unexplored. ") 
+     def Characteristics(self):
+       print("Characteristics") 
+     def Owner(self):
+       print("Characteristics: wedge-shaped, yet rounded head with broad ears and almond-shaped eyes in shades of gold or green. ") 
+     def Health(self):
+       print("Health:")
+       print(">>>Early periodontal disease")
+       print(">>>Hyperesthesia syndrome")
+       print(">>>Patellar luxation")
+       print(">>>Progressive retinal atrophy")
+       print(">>>Pyruvate kinase deficiency")
+       print(">>>Renal amyloidosis") 
+     def lastvaccination(self):
+       print("Last Vaccinaton: November 25, 2022") 
+     def Skills(self):
+       print("Skills: He make you happy!!!") 
+     def SurveySucces(self):
+         print("Survey Success")
+         print("===========================================================")
+         print("")
+         print("")
+         print("")
+         print("")
+
+class MEOW(): 
+     def Name(self):
+         print("*******************SECOND CHOICE OF CAT*******************")
+         print("===========================================================")
+         print("Name: Java Ming")
+         print("===========================================================")
+     def Breeds(self): 
+       print("Breeds:Balinese-Javanese Cat Breed") 
+     def Size(self):
+       print("Size: 10 pound ") 
+     def Gender(self):
+       print("Gender: Female") 
+     def color(self):
+       print("Color:Balinese - seal point, chocolate point, blue point and lilac point, plus various patterns and shadings;")
+     def Age(self):
+       print("Age: 14 years ")  
+     def Shedding(self):
+       print("Shedding: only weekly brushing to remove loose hair and maintain a healthy appearance.") 
+     def Temperament(self):
+       print("Temperament: This breed may appear to be the picture of refinement, but in this elegant body beats the heart of a kitten who loves to have fun. ") 
+     def Characteristics(self):
+       print("Characteristics") 
+     def Owner(self):
+       print("Characteristics: A Siamese in every nature except for their medium length, silky coat, the Balinese and Javanese also have a distinctive, luxurious tail plume. ") 
+     def Health(self):
+       print("Health:")
+       print(">>>A generally healthy breed, Balinese and Javanese may be affected by lysosomal storage ")
+       print(">>>disease and feline acromelanism, a condition that can causes changes in coat color with ")
+       print(">>>temperature variations. They may also develop Progressive Retinal Atrophy (PRA), ")
+       print(">>>Progressive retinal atrophy")
+       print(">>>strabismus (crossed eyes) and hereditary liver amyloidosis.")
+     def lastvaccination(self):
+       print("Last Vaccinaton: November 25, 2022") 
+     def Skills(self):
+       print("Skills: She make you happy!!!") 
+     def SurveySucces(self):
+         print("Survey Success")
+         print("===========================================================")
+
+
+obj_catlover= CAT()
+obj_catlover1 = MEOW() 
+
+for  animal in (obj_catlover, obj_catlover1):
+    animal.Name()
+    animal.Breeds()
+    animal.Size()
+    animal.Gender()
+    animal.color()
+    animal.Age()
+    animal.Shedding()
+    animal.Temperament()
+    animal.Characteristics()
+    animal.Owner()
+    animal.Health()
+    animal.lastvaccination()
+    animal.Skills()
+    animal.SurveySucces()
